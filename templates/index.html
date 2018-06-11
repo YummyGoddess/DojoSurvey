@@ -11,21 +11,21 @@
   <form action='/users' method='post'>
     <h2>User Information</h2>
     Location:
-    <select name='creats_users'>
+    <select name="Cities">
          <option value="San_Jose">San Jose</option>
          <option value="Emeryville">Emeryville</option>
          <option value="Seattle">Seattle</option>
          <option value="Los_Angeles">Los Angeles</option>
          <option value="Tulsa">Tulsa</option>
          <option value="Chicago">Chicago</option>
-         <option value="">Dallas</option>
+         <option value="Dallas">Dallas</option>
          <option value="Tysons_Corners">Tysons Corners</option>
     </select>
-    Message: <textarea name='message'></textarea>
-    <input type='checkbox' name='extra_hours' value='yes'>Would you like Coding Dojo to remain open on weekends?
+    Message: <textarea value='message' name='message'></textarea>
+    <input type='checkbox' name="open" value='yes'>Would you like Coding Dojo to remain open on weekends?
     <p>Please select your preferred contact method:</p>
-    <input type='radio' name='contact' value='email'>Email
-    <input type='radio' name='contact' value='phone'>Phone
+    Name: <input type="text" name='name' value='Name'>
+    Email:<input type="text" name='email' value='email'>
     <input type='submit'value='submit'>
 </form>
 
